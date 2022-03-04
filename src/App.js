@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Rocket from './modules/lotties/rocket/index'
+import LikeHeart from "./modules/lotties/like/index";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Lotties !!</h1>
+      <div className='animates'>
+        <Rocket/>
+        <LikeHeart/>
+      </div>
     </div>
   );
 }
