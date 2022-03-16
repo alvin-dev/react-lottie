@@ -2,11 +2,6 @@
 
 ![animations](./src/assets/gifs/react-lottie.gif)
 
-## Links
-
-[React Router](https://reactrouter.com/) <br/>
-[Documentation](https://reactrouter.com/docs/en/v6)
-
 ## Download free animations
 
 [LottieFiles](https://lottiefiles.com/featured)
